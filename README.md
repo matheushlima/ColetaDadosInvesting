@@ -50,8 +50,7 @@ RoboCotação
 
 1. Backend (pasta Trade.API)
 
-### 🎲 Rodando a API
-
+### Rodando a API
 ```bash
 
 # Clone este repositório
@@ -69,6 +68,8 @@ $ dotnet run
 # O servidor inciará na porta:5180 - acesse http://localhost:5180
 
 ```
+Caso a comunicação com o banco de dados apresente alguma falha, será necessario verificar as configurações de comunicação com o banco.
+https://github.com/matheushlima/ColetaDadosInvesting/blob/main/TradeAPI/TradeAPI/appsettings.json 
 
 ## Banco de dados
 
@@ -89,6 +90,7 @@ $ dotnet run
 ```
 
 Caso for copiar o executavel do projeto para outra pasta, colocar a pasta "Driver" no mesmo local.
+O mesmo deve ser feito com as pastas Debug ou Release.
 
 ---
 
